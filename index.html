@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Proposta de conteúdo para @andressa_fabricio_">
+<meta property="og:title" content="Andressa, isso aqui foi feito para o seu perfil">
+<meta property="og:description" content="Proposta de conteúdo: identidade visual, carrosséis e Reels prontos.">
+<meta property="og:image" content="midia/1-primeira-vez/01.jpg">
+<style>html,body{margin:0}img{max-width:100%}</style><title>Portfólio para Andressa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Hanken+Grotesk:wght@300..700&display=swap">
+<style>
+/* Layout: carta editorial em coluna única; cada seção abre com rótulo e título; trabalhos em tiras horizontais e um celular simulando o feed */
+:root{
+  --bg:#F7F0EE; --paper:#FFFBFA; --nude:#EAD7D0; --ink:#2E211F; --muted:#6F5A56; --line:#E3D2CC;
+  --malva:#8E5E6E; --ouro:#9C7A49; --on-malva:#F7F0EE;
+  --f-display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --f-body:"Hanken Grotesk","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1D1615; --paper:#271E1C; --nude:#3A2C29; --ink:#F3E8E4; --muted:#C2ACA7; --line:#3D2F2C;
+  --malva:#D29BAD; --ouro:#D4B27C; --on-malva:#1D1615; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1D1615; --paper:#271E1C; --nude:#3A2C29; --ink:#F3E8E4; --muted:#C2ACA7; --line:#3D2F2C;
+  --malva:#D29BAD; --ouro:#D4B27C; --on-malva:#1D1615; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.62;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;line-height:1.08;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,6.4vw,4.6rem);letter-spacing:-.012em}
+h2{font-size:clamp(2rem,4.4vw,3.1rem)}
+h3{font-size:1.45rem;line-height:1.2}
+h1 em,h2 em,h3 em{font-style:italic;color:var(--malva)}
+p{margin:0}
+.eyebrow{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--ouro)}
+.lede{font-size:1.12rem;color:var(--muted);max-width:58ch}
+.muted{color:var(--muted)}
+a{color:var(--malva)}
+:focus-visible{outline:2px solid var(--malva);outline-offset:3px}
+
+/* abertura */
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding-block:64px 56px}
+.hero-text{display:grid;gap:22px;min-width:0}
+.sign{display:flex;gap:14px;align-items:center;font-size:.92rem;color:var(--muted);padding-top:6px}
+.sign b{color:var(--ink);font-weight:600}
+.sign i{width:36px;height:1px;background:var(--ouro);display:block}
+.hero-art{position:relative;aspect-ratio:4/5;max-width:100%}
+.hero-art img{position:absolute;border-radius:4px;box-shadow:0 18px 40px -18px rgba(46,33,31,.35)}
+.hero-art .a{width:70%;left:0;top:0}
+.hero-art .b{width:46%;right:0;bottom:0}
+
+section{padding-block:64px;border-top:1px solid var(--line)}
+.head{display:grid;gap:12px;margin-bottom:34px;max-width:62ch}
+
+/* leitura do perfil */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.col{display:grid;gap:18px;align-content:start}
+.col h3{font-size:1.15rem;font-family:var(--f-body);font-weight:600;letter-spacing:.02em}
+.note{display:grid;gap:4px;padding-left:18px;border-left:2px solid var(--line)}
+.note.good{border-color:var(--ouro)}
+.note.op{border-color:var(--malva)}
+.note b{font-weight:600}
+.note p{color:var(--muted);font-size:.96rem}
+
+/* identidade */
+.identity{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}
+.swatches{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.sw{display:grid;gap:8px;font-size:.8rem}
+.sw i{display:block;aspect-ratio:1;border-radius:50%;border:1px solid var(--line)}
+.sw span{color:var(--muted)}
+.type{display:grid;gap:6px;padding:22px 24px;background:var(--paper);border-radius:4px;margin-top:22px}
+.type .d{font-family:var(--f-display);font-size:2.2rem;line-height:1.1}
+.type .d em{font-style:italic;color:var(--malva)}
+.type .s{font-size:.95rem;color:var(--muted)}
+.sig{display:grid;gap:14px;min-width:0}
+.sig img{border-radius:4px;width:100%}
+.sig p{color:var(--muted);font-size:.96rem}
+
+/* celular com o feed */
+.feed{display:grid;grid-template-columns:minmax(0,380px) 1fr;gap:48px;align-items:center}
+.phone{background:var(--paper);border:1px solid var(--line);border-radius:34px;padding:22px 14px 14px;box-shadow:0 30px 60px -30px rgba(46,33,31,.35);max-width:100%}
+.ig-head{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;padding:0 6px 12px}
+.avatar{width:72px;height:72px;border-radius:50%;background:var(--malva);color:var(--on-malva);display:grid;place-items:center;font-family:var(--f-display);font-style:italic;font-size:2rem}
+.ig-nums{display:flex;justify-content:space-around;text-align:center;font-size:.78rem;color:var(--muted)}
+.ig-nums b{display:block;color:var(--ink);font-size:.98rem;font-variant-numeric:tabular-nums}
+.ig-bio{padding:0 6px 12px;font-size:.84rem;line-height:1.45;white-space:pre-line}
+.ig-bio b{display:block;font-size:.9rem}
+.ig-btn{margin:0 6px 12px;text-align:center;font-size:.8rem;font-weight:600;background:var(--nude);border-radius:8px;padding:7px}
+.ig-hl{display:flex;gap:12px;padding:0 6px 14px;overflow:hidden}
+.ig-hl span{display:grid;gap:4px;justify-items:center;font-size:.68rem;color:var(--muted)}
+.ig-hl i{width:50px;height:50px;border-radius:50%;border:1.5px solid var(--line);background:var(--bg);display:block}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;border-radius:0 0 20px 20px;overflow:hidden}
+.grid img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
+.feed-text{display:grid;gap:16px;min-width:0}
+.tag{display:inline-block;justify-self:start;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--malva);border:1.5px solid var(--malva);border-radius:99px;padding:4px 12px}
+.feed-text ul{margin:0;padding-left:20px;display:grid;gap:8px;color:var(--muted)}
+
+/* carrosséis */
+.car{display:grid;gap:16px;padding-block:28px;border-top:1px dashed var(--line)}
+.car:first-of-type{border-top:0;padding-top:0}
+.car-meta{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between}
+.car-meta p{color:var(--muted);font-size:.95rem;max-width:56ch}
+.strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+.strip img{flex:0 0 236px;width:236px;aspect-ratio:3/4;border-radius:3px;scroll-snap-align:start;max-width:100%}
+.count{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* reels */
+.reels{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.reel{display:grid;gap:14px;align-content:start;min-width:0}
+.reel video{width:100%;aspect-ratio:9/16;border-radius:6px;background:var(--ink);display:block;max-height:640px;object-fit:cover}
+.reel p{color:var(--muted);font-size:.95rem}
+.print-poster{display:none}
+
+/* plano do mês */
+.weeks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.week{background:var(--paper);border-radius:4px;padding:18px 18px 20px;display:grid;gap:10px;align-content:start}
+.week .eyebrow{color:var(--malva)}
+.week ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:.92rem}
+.week li.ready::marker{color:var(--ouro)}
+.legend{font-size:.85rem;color:var(--muted);margin-top:14px}
+
+/* como trabalhamos */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-bottom:40px}
+.step{display:grid;gap:6px;align-content:start}
+.step b{font-family:var(--f-display);font-style:italic;font-size:2.4rem;line-height:1;color:var(--malva);font-weight:400}
+.step h3{font-size:1.1rem;font-family:var(--f-body);font-weight:600}
+.step p{color:var(--muted);font-size:.94rem}
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.plan{border:1px solid var(--line);border-radius:4px;padding:22px;display:grid;gap:12px;align-content:start}
+.plan.feat{background:var(--malva);color:var(--on-malva);border-color:var(--malva)}
+.plan.feat .muted,.plan.feat li{color:var(--on-malva)}
+.plan h3{font-size:1.6rem}
+.plan.feat h3 em{color:var(--on-malva)}
+.plan ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:.93rem}
+
+/* fecho */
+.close{padding-block:72px 88px;display:grid;gap:22px;max-width:60ch}
+.close .gift{background:var(--paper);border-left:3px solid var(--ouro);padding:18px 22px;border-radius:0 4px 4px 0}
+
+@media (max-width:860px){
+  .hero,.two,.identity,.feed,.reels{grid-template-columns:1fr}
+  .hero-art{max-width:440px}
+  .weeks,.steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .plans{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .weeks,.steps{grid-template-columns:1fr}
+  .swatches{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+  .strip img{flex-basis:200px;width:200px}
+}
+
+/* versão PDF */
+@page{size:A4;margin:14mm 12mm}
+@media print{
+  :root,:root:not([data-theme="light"]),:root[data-theme="dark"]{
+    --bg:#F7F0EE; --paper:#FFFBFA; --nude:#EAD7D0; --ink:#2E211F; --muted:#6F5A56; --line:#E3D2CC;
+    --malva:#8E5E6E; --ouro:#9C7A49; --on-malva:#F7F0EE; color-scheme:light}
+  html{background:#F7F0EE;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-size:11.5pt;padding:0;background:var(--bg)}
+  section{break-before:page;padding-block:0 12px;border-top:0}
+  .hero{padding-block:10mm 0}
+  .strip{flex-wrap:wrap;overflow:visible;gap:6px}
+  .strip img{flex:0 0 calc(25% - 5px);width:calc(25% - 5px)}
+  .car{break-inside:avoid}
+  .reel video{display:none}
+  .print-poster{display:block;width:100%;max-width:300px;aspect-ratio:9/16;object-fit:cover;border-radius:6px}
+  .phone{box-shadow:none}
+  .feed{grid-template-columns:330px 1fr}
+  .weeks{grid-template-columns:repeat(2,1fr)}
+  .identity{grid-template-columns:1fr 1fr}
+  .two,.reels{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:repeat(4,1fr)}
+  .plans{grid-template-columns:repeat(3,1fr)}
+  .close{break-before:page}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Proposta de conteúdo · @andressa_fabricio_</p>
+    <h1>Andressa, isso aqui foi feito <em>para o seu perfil.</em></h1>
+    <p class="lede">Estudei o seu Instagram, o jeito como você fala de cuidado e autoestima e o que funciona para quem trabalha com sobrancelha. Antes de qualquer conversa, quis te mostrar na prática como o seu perfil pode ficar.</p>
+    <p class="sign"><i></i><span>Preparado por <b>Fabrício</b>, social media · novembro de 2026</span></p>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <img class="a" src="midia/1-primeira-vez/01.jpg" alt="">
+    <img class="b" src="midia/capa-reel2.jpg" alt="">
+  </div>
+</header>
+
+<section id="perfil">
+  <div class="head">
+    <p class="eyebrow">O que eu vi no seu perfil</p>
+    <h2>Você já tem o mais difícil: <em>clientes que confiam em você.</em></h2>
+  </div>
+  <div class="two">
+    <div class="col">
+      <h3>O que já funciona</h3>
+      <div class="note good"><b>Você mostra resultado</b><p>Os destaques Clientes, Feedback e Dúvidas mostram prova real do seu trabalho. Isso é raro em perfil pequeno.</p></div>
+      <div class="note good"><b>Suas clientes aparecem com você</b><p>No post de 24 de outubro você acompanhou a evolução de uma cliente desde a primeira sessão. Esse tipo de série prende quem está assistindo.</p></div>
+      <div class="note good"><b>Seu discurso é de cuidado</b><p>"Cuidado, autoestima e bem-estar" é uma promessa bonita e muito sua. Ela só precisa aparecer mais nos posts.</p></div>
+    </div>
+    <div class="col">
+      <h3>O que dá para destravar</h3>
+      <div class="note op"><b>Um caminho fácil até a sua agenda</b><p>Hoje não tem link na bio. Quem gostou do seu trabalho precisa procurar como te chamar.</p></div>
+      <div class="note op"><b>Reels toda semana</b><p>É o formato que leva o seu perfil para quem ainda não te segue em Mineiros, Jaú, Dois Córregos e região.</p></div>
+      <div class="note op"><b>A limpeza de pele aparecer</b><p>Você faz, mas o perfil ainda não mostra. Junto com a sobrancelha, vira um combo de autocuidado.</p></div>
+      <div class="note op"><b>Um ritmo fixo de posts</b><p>Com um calendário, o perfil trabalha por você mesmo nas semanas mais cheias de atendimento.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="identidade">
+  <div class="head">
+    <p class="eyebrow">A identidade que eu criei para você</p>
+    <h2>Delicada, elegante e <em>com a cara do seu trabalho.</em></h2>
+  </div>
+  <div class="identity">
+    <div>
+      <div class="swatches">
+        <div class="sw"><i style="background:#F6EEEC"></i>Pétala<span>fundo</span></div>
+        <div class="sw"><i style="background:#E7D2CA"></i>Nude<span>pele</span></div>
+        <div class="sw"><i style="background:#8E5E6E"></i>Malva<span>destaque</span></div>
+        <div class="sw"><i style="background:#2E211F"></i>Cacau<span>fio</span></div>
+        <div class="sw"><i style="background:#B39063"></i>Ouro<span>detalhe</span></div>
+      </div>
+      <div class="type">
+        <span class="d">Sobrancelha <em>natural</em></span>
+        <span class="s">Títulos em uma serifa de revista de moda, com a palavra mais importante em itálico. Textos em uma fonte leve e fácil de ler no celular.</span>
+      </div>
+    </div>
+    <div class="sig">
+      <img src="midia/2-formato-do-rosto/07.jpg" alt="Card com a ilustração de uma sobrancelha desenhada fio a fio e as linhas de mapeamento de início, arco e cauda">
+      <p><b>A assinatura visual:</b> uma sobrancelha desenhada fio a fio, com as linhas de mapeamento. É o seu método virando a marca do perfil. Quem rolar o feed reconhece o seu post antes de ler o nome.</p>
+    </div>
+  </div>
+</section>
+
+<section id="feed">
+  <div class="feed">
+    <div class="phone" aria-label="Simulação do perfil da Andressa com os novos posts">
+      <div class="ig-head">
+        <div class="avatar">A</div>
+        <div class="ig-nums"><span><b>+6</b>posts novos</span><span><b>707</b>seguidores</span><span><b>138</b>seguindo</span></div>
+      </div>
+      <p class="ig-bio"><b>Andressa | Sobrancelhas Mineiros do Tietê</b>Sobrancelha natural e limpeza de pele 🤍
+Mapeamento antes de qualquer pinça
+📍 Mineiros do Tietê e região</p>
+      <div class="ig-btn">Agendar pelo WhatsApp</div>
+      <div class="ig-hl"><span><i></i>Comece aqui</span><span><i></i>Clientes</span><span><i></i>Feedback</span><span><i></i>Dúvidas</span><span><i></i>Pele</span></div>
+      <div class="grid">
+        <img src="midia/capa-reel1.jpg" alt="Capa do Reel Nenhum fio sai antes disso">
+        <img src="midia/4-dezembro/01.jpg" alt="Capa do carrossel Dezembro chegou">
+        <img src="midia/1-primeira-vez/01.jpg" alt="Capa do carrossel Primeira vez comigo">
+        <img src="midia/2-formato-do-rosto/01.jpg" alt="Capa do carrossel Esqueça o formato do rosto">
+        <img src="midia/capa-reel2.jpg" alt="Capa do Reel de limpeza de pele">
+        <img src="midia/3-lapis-gel-sombra/01.jpg" alt="Capa do carrossel Lápis, gel ou sombra">
+        <img src="midia/2-formato-do-rosto/07.jpg" alt="Card do mapeamento">
+        <img src="midia/3-lapis-gel-sombra/07.jpg" alt="Card da regra do meio tom">
+        <img src="midia/1-primeira-vez/06.jpg" alt="Card de agendamento">
+      </div>
+    </div>
+    <div class="feed-text">
+      <span class="tag">Simulação</span>
+      <h2>Assim ficaria o seu feed <em>no primeiro mês.</em></h2>
+      <p class="muted">Os números de seguidores são os de hoje. O resto é uma prévia com os posts que já estão prontos e com a bio e os destaques que eu sugiro.</p>
+      <ul>
+        <li>Nome do perfil com "Sobrancelhas Mineiros do Tietê": quem procurar a cidade no Instagram te encontra.</li>
+        <li>Botão para agendar direto no WhatsApp.</li>
+        <li>Destaque "Comece aqui" para quem vai pela primeira vez.</li>
+        <li>Feed com cara de marca: cores e tipografia iguais em todo post.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="carrosseis">
+  <div class="head">
+    <p class="eyebrow">Prontos para postar</p>
+    <h2>Quatro carrosséis <em>com o seu nome.</em></h2>
+    <p class="lede">Arraste para ver cada card. Os textos falam com a sua cliente, no seu tom, e terminam sempre com um convite para agendar.</p>
+  </div>
+  <div id="cars"></div>
+</section>
+
+<section id="reels">
+  <div class="head">
+    <p class="eyebrow">Reels com narração</p>
+    <h2>Seu método e seu novo serviço <em>em 30 segundos.</em></h2>
+    <p class="lede">Dois Reels animados, com voz feminina e trilha suave. Dê o play com som.</p>
+  </div>
+  <div class="reels">
+    <div class="reel">
+      <video controls playsinline preload="metadata" poster="midia/capa-reel1.jpg" src="midia/reel1.mp4"></video>
+      <img class="print-poster" src="midia/capa-reel1.jpg" alt="">
+      <h3>Nenhum fio sai <em>antes disso</em></h3>
+      <p>Mostra o mapeamento que você faz antes de pegar a pinça. A sobrancelha é desenhada fio a fio na tela e as linhas de início, arco e cauda se traçam enquanto a voz explica.</p>
+    </div>
+    <div class="reel">
+      <video controls playsinline preload="metadata" poster="midia/capa-reel2.jpg" src="midia/reel2.mp4"></video>
+      <img class="print-poster" src="midia/capa-reel2.jpg" alt="">
+      <h3>Limpeza de pele <em>em 30 segundos</em></h3>
+      <p>Apresenta a sua limpeza de pele etapa por etapa e termina com o convite para o combo limpeza de pele mais sobrancelha no mesmo dia.</p>
+    </div>
+  </div>
+  <p class="legend">Depois desses, a ideia é gravar Reels com os seus atendimentos reais. Eu levo o roteiro pronto e te ajudo na gravação.</p>
+</section>
+
+<section id="mes">
+  <div class="head">
+    <p class="eyebrow">Seu primeiro mês</p>
+    <h2>Três posts por semana, <em>sem você se preocupar.</em></h2>
+  </div>
+  <div class="weeks">
+    <div class="week"><p class="eyebrow">Semana 1</p><ul><li class="ready">Carrossel "Primeira vez comigo?" fixado no topo</li><li class="ready">Reel "Nenhum fio sai antes disso"</li><li>Bio, nome e link de agendamento novos</li></ul></div>
+    <div class="week"><p class="eyebrow">Semana 2</p><ul><li class="ready">Carrossel "Dezembro chegou"</li><li class="ready">Reel da limpeza de pele</li><li>Stories com enquete para as seguidoras</li></ul></div>
+    <div class="week"><p class="eyebrow">Semana 3</p><ul><li class="ready">Carrossel "Esqueça o formato do rosto"</li><li>Reel gravado com um atendimento seu</li><li>Stories de bastidor</li></ul></div>
+    <div class="week"><p class="eyebrow">Semana 4</p><ul><li class="ready">Carrossel "Lápis, gel ou sombra"</li><li>Post com depoimento de cliente</li><li>Relatório do mês para você</li></ul></div>
+  </div>
+  <p class="legend">Os itens marcados em dourado já estão prontos e aparecem neste material.</p>
+</section>
+
+<section id="como">
+  <div class="head">
+    <p class="eyebrow">Como a gente trabalharia junto</p>
+    <h2>Você cuida das clientes. <em>Eu cuido do perfil.</em></h2>
+  </div>
+  <div class="steps">
+    <div class="step"><b>1</b><h3>Conversa de 15 minutos</h3><p>Entendo seus serviços, seus horários livres e o que você quer vender mais.</p></div>
+    <div class="step"><b>2</b><h3>Planejamento do mês</h3><p>Te mando o calendário com todos os posts, legendas e roteiros.</p></div>
+    <div class="step"><b>3</b><h3>Você aprova</h3><p>Nada vai ao ar sem o seu ok. Ajusto o que você quiser.</p></div>
+    <div class="step"><b>4</b><h3>Publicação e relatório</h3><p>Eu publico e, no fim do mês, te mostro o que funcionou.</p></div>
+  </div>
+  <div class="plans">
+    <div class="plan"><p class="eyebrow">Para começar</p><h3>Essencial</h3><ul><li>12 posts no mês, com arte e legenda</li><li>Bio, nome do perfil e link de agendamento</li><li>Capas dos destaques</li></ul></div>
+    <div class="plan feat"><p class="eyebrow" style="color:inherit;opacity:.85">O que eu indico</p><h3><em>Presença</em></h3><ul><li>Tudo do Essencial</li><li>8 Reels roteirizados no mês</li><li>Stories semanais</li><li>Relatório mensal</li></ul></div>
+    <div class="plan"><p class="eyebrow">Para crescer</p><h3>Agenda cheia</h3><ul><li>Tudo do Presença</li><li>Campanhas de datas (festas, Dia das Mães, noivas)</li><li>Gravação dos Reels junto com você</li></ul></div>
+  </div>
+  <p class="legend">Os valores eu te passo na nossa conversa, de acordo com o pacote que fizer mais sentido para você.</p>
+</section>
+
+<footer class="close">
+  <p class="eyebrow">Próximo passo</p>
+  <h2>Gostou? <em>Me responde por aqui.</em></h2>
+  <p class="lede">Em 15 minutos de conversa eu te explico tudo e a gente vê qual formato combina com a sua rotina.</p>
+  <div class="gift"><b>Um presente:</b> o carrossel "Primeira vez comigo?" é seu. Pode postar mesmo que a gente não feche nada.</div>
+  <p class="sign"><i></i><span>Com carinho, <b>Fabrício</b></span></p>
+</footer>
+</div>
+
+<script>
+const cars=[
+ {dir:'1-primeira-vez',n:6,t:'Primeira vez <em>comigo?</em>',d:'Guia para quem vai te visitar pela primeira vez. Ideal para ficar fixado no topo do perfil.'},
+ {dir:'2-formato-do-rosto',n:8,t:'Esqueça o <em>formato do rosto</em>',d:'Explica por que você faz mapeamento e mostra que o seu trabalho é personalizado.'},
+ {dir:'3-lapis-gel-sombra',n:8,t:'Lápis, gel ou <em>sombra?</em>',d:'Dicas práticas que as seguidoras salvam e mandam para as amigas.'},
+ {dir:'4-dezembro',n:6,t:'Dezembro <em>chegou</em>',d:'Cronograma para as festas, para publicar no começo de novembro e encher a agenda de dezembro.'}
+];
+document.getElementById('cars').innerHTML=cars.map(c=>`
+ <div class="car">
+  <div class="car-meta"><div><h3>${c.t}</h3><p>${c.d}</p></div><span class="count">${c.n} cards</span></div>
+  <div class="strip" tabindex="0" aria-label="Cards do carrossel">${Array.from({length:c.n},(_,i)=>`<img loading="lazy" src="midia/${c.dir}/${String(i+1).padStart(2,'0')}.jpg" alt="Card ${i+1} de ${c.n}">`).join('')}</div>
+ </div>`).join('');
+</script>
+
+</body>
+</html>
